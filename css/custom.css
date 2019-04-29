@@ -1,0 +1,257 @@
+body {
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #212121;
+	background-color: #fff;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;    
+}
+
+.box-fancy ul li {
+	margin-bottom: 10px;
+}
+
+#stars .post-item-description h3 {
+	margin-bottom: 10px;
+}
+
+#stars .post-item-description p:last-child {
+	margin-bottom: 10px;
+}
+
+.mfp-counter {
+	display: none;
+}
+
+#tabs-price .tabs-navigation li a {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #333 !important;
+}
+
+#tabs-price .tabs-content ul {
+	padding-left: 0;
+}
+
+#tabs-price .tabs-content h4 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+#tabs-price .tabs-content p {
+	line-height: 20px;
+	margin-bottom: 0;
+}
+#tabs-price .tabs-content ul li {
+	color: #7b7b7b;
+}
+
+#tabs-price .tabs-content ul li {
+	list-style-type: none;
+}
+
+#tabs-price .tabs-content,
+#tabs-price .tabs-navigation li a {
+	border-color: rgba(255,255,255,0.5)
+}
+
+#tabs-price .tabs-content i.fa-chevron-right {
+	color: #9ccf1a !important;
+	font-size: 16px;
+}
+
+#stretching ul {
+	list-style-type: none;
+}
+
+#stretching ul li {
+	margin-bottom: 20px;
+	font-size: 18px;
+} 
+
+#stretching ul li:before {
+	content: "\f138";
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	color: #9ccf1a;
+	font-family: FontAwesome;
+	font-size: 20px;
+}
+
+#legend {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 100px;
+	right: 100px;
+	bottom: 20px;
+	z-index: 1;
+	display: inline-block;
+}
+
+#legend ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+#legend ul li {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 25px;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+	padding: 5px 20px 5px 15px;
+	margin: 0 7px 15px;
+	background-color: #fff;
+	color: #212121 !important;	
+}
+
+#legend ul li:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	border-radius: 50%;
+	position: relative;
+	top: -1px;
+} 
+
+#legend ul li.by-foot:before {
+	background: #9ccf1a;	
+}
+
+#legend ul li.by-car:before {
+	background: #433894;	
+}
+
+.box-fancy-2 .item.contacts-info {
+	background: #2d2d2d url('../images/boxing_bg.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 100px 80px;	
+}
+
+.box-fancy-2 .item {
+	padding: 0;
+}
+
+.contacts-map {
+	position: relative;
+}
+
+#map1 {
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+}	
+
+.soc h5,
+.soc > div {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+} 
+
+.soc h5 {
+	margin-bottom: 0;
+	margin-top: 12px;
+}
+
+.nodis {
+	display: none !important;
+}
+
+body .form-control {
+	font-size: 16px;
+}
+
+body .af-message-success  {background-color: #9ccf1a !important;}
+body .af-message-error  {background-color: #eb5d68 !important;}
+body .af-message-info  {background-color: #2f353b !important;}
+
+body div.jGrowl div.jGrowl-notification,
+body div.jGrowl div.jGrowl-closer {
+border-radius:	0;
+-moz-border-radius: 	0;
+-webkit-border-radius:	0;
+display: none !important;
+}
+
+header .instagram img {
+	width: 42px;
+}
+
+header .instagram a:hover img {
+	opacity: 0.9;
+}
+
+#goToCall {
+	
+}
+
+@media (min-width: 992px) {
+	.row-eq-height {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+	
+	.box-fancy h3 {
+		margin-top: 100px;
+	}
+	
+	.box-fancy ul li {
+		font-size: 18px;	
+	}
+	
+	.tabs-navigation li a {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.box-fancy-2 .item {
+		width: 50%;
+	}
+	
+}
+
+@media (max-width: 1050px) and (min-width: 992px) {
+	#mainMenu nav > ul > li > a {
+    	padding: 11px 10px;
+	}		
+}
+
+@media (max-width: 767px) {
+
+	.heading.section-title > h1,
+	.heading.section-title > h2 {
+	    font-size: 38px;
+	    line-height: 46px;
+	}
+
+	.heading.section-title > h1 br,
+	.heading.section-title > h2 br {
+		display: none;
+	}
+
+	#stretching ul {
+		padding-left: 0;
+	}
+	
+	#stretching ul li {
+	    margin-bottom: 10px;
+	    font-size: 16px;
+	}
+	
+	#stretching {
+		background-position: 60% center;
+	}
+
+}
