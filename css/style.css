@@ -13481,7 +13481,6 @@ Image Block
    Page loader
 -------------------------------------------------------------------------*/
 body:not(.no-page-loader) #wrapper {
-  opacity: 0;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
