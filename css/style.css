@@ -259,10 +259,13 @@ a:active {
 html {
   overflow-x: hidden;
 }
+
 html p,html span, html a, html h1, html h2, html h3, html h4, html h5, html h6, html div {
   font-family: "Museo Sans Cyrl 500";
 }
-
+body {
+  opacity: 1;
+}
 /* Layout boxed & wide */
 @media (max-width: 479px) {
 	.callMe {
@@ -278,7 +281,8 @@ html p,html span, html a, html h1, html h2, html h3, html h4, html h5, html h6, 
 body #wrapper {
   padding: 0;
   margin: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  opacity: 1; }
 body.wide #wrapper {
   width: 100%;
   margin: 0; }
