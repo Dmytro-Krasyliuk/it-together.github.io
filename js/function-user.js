@@ -33,8 +33,8 @@ $(document).ready(function() {
 	    0 : {
 		  items: 1,
 	      dots: false,
-	      margin:0,
-	      stagePadding: 7,
+	      margin:15,
+	      stagePadding: 15,
 	    },
 	    // > 768
 	    768 : {
