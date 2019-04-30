@@ -8584,6 +8584,7 @@ font-weight: bold;
 
 
 @media (max-width: 420px) {
+
 .mapsModal-phone-li {
     padding-left: 7%!important;
 }
@@ -8595,6 +8596,10 @@ font-weight: bold;
 }
 }
 @media (max-width: 500px) {
+.direction-title {
+font-size: 21px;
+line-height: normal;
+	}
 	.lead-2 {
     margin-top: 24px!important;
 }
