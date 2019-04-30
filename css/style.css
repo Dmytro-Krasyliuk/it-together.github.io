@@ -8806,11 +8806,16 @@ margin-top: 25px;
   display: block!important;
 }
 .wrap2-kenburnss {
+
+}
+@media (min-width: 768px) {
+  .wrap2-kenburnss {
     height: 100vh;
     background-color: green!important;
     background-image: url(../images/teaser-1-1.png)!important;
     background-repeat: no-repeat;
     background-position: bottom;
+}
 }
 
 /* ----------------------------------------------------------------
