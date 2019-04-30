@@ -8737,10 +8737,7 @@ margin-top: 25px;
     background-position: bottom!important;
 }
 
-.wrap-kenburnss {
-  
- 
-}
+
 .btn-lg-size {
     background: #51AC18;
     font-size: 18px!important;
@@ -8808,8 +8805,12 @@ margin-top: 25px;
 .d-block {
   display: block!important;
 }
-  .wrap2-kenburnss {
-  background-color: green!important;
+.wrap2-kenburnss {
+    height: 100vh;
+    background-color: green!important;
+    background-image: url(../images/teaser-1-1.png)!important;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 /* ----------------------------------------------------------------
