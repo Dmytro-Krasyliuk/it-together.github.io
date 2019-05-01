@@ -1019,7 +1019,7 @@ border-top: 1px solid $light;
   #header.header-sticky.sticky-active #header-wrap {
     top: 0; }
   #header.header-sticky.dark #header-wrap {
-        background: rgba(16, 16, 16, 0.7)!important; }
+        background: rgb(2, 1, 6)!important; }
   #header.dark {
     /*Main Menu*/ }
     #header.dark #header-wrap {
@@ -8812,7 +8812,7 @@ margin-top: 25px;
 @media (min-width: 768px) {
   .wrap2-kenburnss {
     height: 100vh;
-    background-color: green!important;
+    background-color: #020106!important;
     background-image: url(../images/teaser-1-1.png)!important;
     background-repeat: no-repeat;
     background-position: bottom;
