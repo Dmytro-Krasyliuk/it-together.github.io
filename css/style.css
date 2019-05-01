@@ -1005,7 +1005,7 @@ border-top: 1px solid $light;
       #header #header-wrap #logo a > img {
     vertical-align: inherit;
     transition: all .4s ease-in-out;
-    height: 66px;
+    height: 75px;
     margin-top: 5px;
     width: auto; }
   #header.header-sticky #header-wrap {
