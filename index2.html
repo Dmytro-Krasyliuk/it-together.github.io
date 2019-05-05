@@ -471,7 +471,7 @@ C рынком видео-звонков, делая конференс-виде
           <li class="cost-plan__li"><img src="img/icons/cost-6.svg" class="cost-plan__icon">Групповая онлайн-встреча с Евгеним Лукощенко и ответы на вопросы
 </li>
         </ul>
-        <a href="#link-7" class="btn-default scroll-link">Записаться</a>
+          <a href="#" class="btn-default scroll-link" data-lightbox="inline" class="btn m-md-auto btn-modal d-md-table btn-rounded btn-color " data-toggle="modal" data-target="#ModalOrder">Записаться</a>
         </div>
       </div>
       <hr>
@@ -657,12 +657,46 @@ C рынком видео-звонков, делая конференс-виде
     </div>
   </div>
 </footer>
+<div class="modal fade modalOrder" id="ModalOrder" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span class="close-span" aria-hidden="true">&times;</span>
+        </button><br>
+        <h4 class="modal-title text-center" id="myModalLabel">Оставить заявку</h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-container">
+      <div class="note"></div>
+      <div class="fields">
+      <form class="ajax-contact-form" action="">
+      <p class="modalOrder__p">Ваше имя<span class="text-danger">*</span><p>
+      <input type="text" name="name" class="modalOrder__input" id="modalOrder-name" placeholder="Ваше имя"><br>
+      <small class="modalOrder__small modalOrder__small-name" id="modalOrder__small-name">Необходимо ввести ваше имя</small>
+     <label for="tel"><p class="modalOrder__p">Номер телефона<span class="text-danger">*</span><p> </label>
+      <input type="tel" name="tel" class="modalOrder__input callMe__input-tel" id="modalOrder-tel" id="tel" placeholder="+38 (___) ___-__-__"><br>
+        <small class="modalOrder__small modalOrder__small-tel" id="modalOrder__small-tel">Необходимо ввести ваш номер телефона</small>
+      <p class="modalOrder__p" >Электронная почта<p>
+      <input type="mail" name="text" class="modalOrder__input"><br>
+      <div class="modal-footer text-center">
+    <input type="submit" name="submit" data-lightbox="inline" class="form-container__btn m-md-auto btn btn-modal btn-rounded btn-order" value="Вiдправити заявку" />
+      </div>
+  </div>
+  </div>
+    </form>
+    </div>
+  </div>
+</div>
+
 
 <!-- START scripts -->
  
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/function-user.js"></script>
 <!-- END scripts -->
   </body>
 </html>
