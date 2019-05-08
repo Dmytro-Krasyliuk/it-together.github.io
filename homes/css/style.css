@@ -2966,7 +2966,7 @@ HEADER: Responsive
     background-position: 50% 20%;
     background-repeat: repeat-y;
     background-size: cover;
-    height: 100vh;
+    height: 100vh!important;
     position: relative;
     vertical-align: middle;
     width: 100%;
