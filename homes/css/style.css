@@ -8515,11 +8515,16 @@ font-weight: bold;
   }
 
 @media (max-width: 768px) {
+.wrap2-kenburnss {
+
+    background-position: 32px 107px!important;
+    background-size: 71% 13%!important;
+}
   .kenburnss {
         padding: 24px 0 0 0;
   }
   .slide-captions  {
-    margin-top: 80px!important;
+    margin-top: 230px!important;
   }
   .ads-section__bg {
     background-color: #fff!important;
